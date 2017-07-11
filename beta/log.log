@@ -14,3 +14,19 @@ switch()
 replace()
 RSN:Agree more than 1
 }
+{
+2017.7.11
+Changed FontMapFinder1.js
+function Search(){
+	var str=leinput.word.value;
+    var outpux=str.replace(/a/g, "97;");
+-->
+function Search(){
+	var str=leinput.word.value;
+    var outpux=str;
+    var outpux=outpux.replace(/a/g, "97;");
+,,,,,
+document.getElementById("output").innerText=outpux; $$ Last...
+-->
+document.getElementById("output").innerText=str + ":" + outpux;
+}
