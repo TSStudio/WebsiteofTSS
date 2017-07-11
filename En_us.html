@@ -1,0 +1,91 @@
+﻿<html>
+	<head>
+		<title>A Minecraft Website</title>
+		<link rel="stylesheet" href="css/buttons.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link href="css/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+		<script type="text/javascript" src="js/jump.js"></script>
+	</head>
+	<body class="toTop-deg">
+		<a href="Zh_cn.html" class="button button-3d button-royal">中文</a><a href="http://beta.tmysam.top/" class="button button-3d button-royal">Beta</a>
+		<br />
+		<br />
+		<div>
+			<div class="sidebar"><!--侧边栏-->
+				<a href="index.html" class="button button-block button-rounded button-primary button-large">Index</a>
+				<a href="#" class="button button-block button-rounded button-action button-large">Homepage</a>
+				<a onclick="Mailbox()" class="button button-block button-rounded button-primary button-large">Mailbox</a>
+				<a onclick="Download()" class="button button-block button-rounded button-primary button-large">Download</a>
+				<a onclick="tmysamchannel()" class="button button-block button-rounded button-primary button-large">Channel1</a>
+				<a onclick="TLHuffchannel()" class="button button-block button-rounded button-primary button-large">Channel2</a>
+				<a onclick="Ehtzedchannel()" class="button button-block button-rounded button-primary button-large">Channel3</a>
+				<a href="PHOTOSHOW/201702E.html" class="button button-block button-rounded button-primary button-large">Photoshow</a>
+				<a href="http://mcgzg.tmysam.top/" class="button button-block button-rounded button-primary button-large">mcgzg.cn</a>
+				<font class="text">XiongHaizi TSS-W</font>
+				<div><!--Musicplayer-->
+					<div>
+						<div id="player">
+							<audio id="audio" controls>
+								<source src="http://mp3.haoduoge.com/s/2017-03-07/1488856778.mp3" type="audio/mpeg" codecs="mp3"></source>
+							</audio>
+							<img src="1.jpg"><!-- album cover -->
+							<div class="cover">
+								<div class="controls">
+									<button class="buttonp" id="play-pause" title="播放" onclick="togglePlayPause()"><i class="fa fa-play fa-3x"></i></button>
+									<script>
+										if (/(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)) {  //iOS
+											document.write("Please Control your system volume");
+										}
+										else if (/(Android)/i.test(navigator.userAgent)) {   //Android
+											document.write("<input id=\"volume\" name=\"volume\" min=\"0\" max=\"1\" step=\"0.1\" type=\"range\" onchange=\"setVolume()\">");
+										}
+										else {  //pc/Mac
+											document.write("<input id=\"volume\" name=\"volume\" min=\"0\" max=\"1\" step=\"0.1\" type=\"range\" onchange=\"setVolume()\">");
+										};
+									</script>
+								</div><!-- #controls -->
+								<div class="info">
+									<p class="text">Beijing</p>
+								</div><!-- #info -->
+							</div><!-- #cover -->
+						</div><!-- #player -->
+					</div><!-- #container -->
+				</div>
+				<script src="js/index.js"></script>
+				<font class="red">　　T</font><font>L_Huff</font><br />
+				<font>tmy_</font><font class="red">S</font><font>am</font><br />
+				<font class="red">　　E</font><font>htzed</font>
+				<div id="ads" height="100"></div>
+			</div>
+			<div><!--正文-->
+				<div><!--标题-->
+					<center>
+						<font class="title blue center text">A Minecraft Website</font>
+					</center>
+				</div>
+				<div><!--Video player and screenshot-->
+					<div>
+						<font class="text">TL_Huff</font> <br />
+						<iframe width=60% height=70% src='http://player.youku.com/embed/XMTU2MDgwMzY3Ng==' frameborder=0 'allowfullscreen'></iframe>
+					</div>
+					<div>
+						<font class="text">tmy_sam</font> <br />
+						<iframe width=60% height=70% src='http://player.youku.com/embed/XMTgwODAzOTg4OA==' frameborder=0 'allowfullscreen'></iframe>
+					</div>
+					<div>
+						<font class="text">Ehtzed</font> <br />
+						<iframe width=60% height=70% src='http://player.youku.com/embed/XMTg0NDcyNzgzMg==' frameborder=0 'allowfullscreen'></iframe>
+					</div>
+					<center>
+						<img src="http://www.mcgzg.cn/screenshot/screentoday.png" alt="ScreenToday" width="50%" />
+					</center>
+				</div>
+			</div>
+		</div>
+		<div><!--落款-->
+			<center>
+				<font class="text">吉ICP备17003700号-1
+			</center>
+		</div>
+	</body>
+</html>

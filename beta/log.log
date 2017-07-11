@@ -1,0 +1,16 @@
+{
+2017.7.5
+Changed FestivalCheck.js:
+if...else
+-->
+switch()
+RSN:faster
+}
+{
+2017.7.9
+Changed FontMapFinder1.js
+switch()
+-->
+replace()
+RSN:Agree more than 1
+}
