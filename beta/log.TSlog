@@ -30,3 +30,11 @@ document.getElementById("output").innerText=outpux; $$ Last...
 -->
 document.getElementById("output").innerText=str + ":" + outpux;
 }
+{
+2017.7.12
+Changed (TAB AND SPACE) $$Read easily
+Added Australia Model $$Study daily
+Added Music
+Removed Txu.html
+Added a Link to Github
+}
