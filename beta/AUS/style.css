@@ -1,4 +1,8 @@
-﻿.red{color:EE1111;}
+﻿@font-face {
+    font-family: "思源黑体";
+    src: url('http://tmysam.top/beta/resource/SourceHanSans-Normal.otf'); 
+}
+.red{color:EE1111;}
 .nocopy{
     -moz-user-select: none; /*火狐*/
     -webkit-user-select: none; /*webkit浏览器*/
@@ -6,4 +10,4 @@
     -khtml-user-select: none; /*早期浏览器*/
     user-select: none;
 }
-*{font-family:"微软雅黑","黑体";}
+*{font-family:"思源黑体","微软雅黑","黑体";}
