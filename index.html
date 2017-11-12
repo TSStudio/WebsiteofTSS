@@ -1,43 +1,81 @@
 ﻿<html>
-	<head>
-		<title>A Minecraft Website</title>
-		<link rel="stylesheet" href="css/buttons.css">
-		<link rel="stylesheet" href="css/style.css">
-		<script type="text/javascript" src="js/jump.js"></script>
-	</head>
-	<body class="toTop-deg">
-		<a href="http://beta.tmysam.top/" class="button button-3d button-royal">Beta</a>
-		<br />
-		<br />
-		<div>
-			<div class="sidebar"><!--侧边栏-->
-				<a href="#" class="button button-block button-rounded button-action button-large">首页Home</a>
-				<a onclick="Mailbox()" class="button button-block button-rounded button-primary button-large">邮箱Mail<a>
-				<a onclick="Download()" class="button button-block button-rounded button-primary button-large">下载DL</a>
-				<a onclick="tmysamchannel()" class="button button-block button-rounded button-primary button-large">频道1Ch1</a>
-				<a onclick="TLHuffchannel()" class="button button-block button-rounded button-primary button-large">频道2Ch2</a>
-				<a onclick="Ehtzedchannel()" class="button button-block button-rounded button-primary button-large">频道3Ch3</a>
-				<a href="PHOTOSHOW/201702Z.html" class="button button-block button-rounded button-primary button-large">照片Photo</a>
-				<a href="http://mcgzg.cn/" class="button button-block button-rounded button-primary button-large">mcgzg.cn</a>
-				<font class="text">XiongHaizi TSS-W</font>
-			</div>
-			<div><!--正文-->
-				<div><!--标题-->
-					<center>
-						<font class="title blue center text">Checking your language...</font>
-						<br />
-						<font class="green center text">UnDDOS System is working...</font>
-						<br />
-						<font class="red center text">The default language is English</font>
-						<meta http-equiv="refresh" content="5;url=En_us.html">
-					</center>
-				</div>
-			</div>
-		</div>
-		<div><!--落款-->
-			<center>
-				<font class="text">吉ICP备17003700号-1
-			</center>
-		</div>
-	</body>
+    <head>
+        <link rel="shortcut icon" type="image/x-icon" href="images/TSSicon.ico" media="screen" />
+        <script>
+            var now = new Date();
+            var month = now.getMonth() + 1;     //Month
+            var day = now.getDate();            //Day
+            var dm = month + "-" + day;
+            if (dm=="4-9")
+                {
+                    alert("Today is CSS Naked Day,No Styles Today!");
+                }
+            else
+                {
+                    document.write("<link rel=\"stylesheet\" href=\"css/buttons.css\">");
+                    document.write("<link rel=\"stylesheet\" href=\"css/style.css\">");
+                }
+        </script>
+        <script src="js/Gettime.js"></script>
+        <title>A Minecraft Website</title>
+    </head>
+    <body>
+        <center>
+            <div><!--Title-->
+                <font class="title text">A Minecraft Website</font>
+                <font class="text">Powered By</font>
+                <img src="TSS.png" width="30%" class="logo"></img>
+                <br />
+                <div class="text">
+                    <script src="js/FestivalCheck.js"></script>
+                    <font>Now is </font>
+                    <font id="Time"></font>
+                    <div id="status"></div>
+                    <script src="js/status.js"></script>
+                    <script src="js/statusprocess.js"></script>
+                    <script type="text/javascript">
+                    var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+                    document.write(unescape("%3Cspan id='cnzz_stat_icon_1263230181'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s22.cnzz.com/z_stat.php%3Fid%3D1263230181%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));
+                    </script>
+                </div>
+            </div>
+            <div class="navbar"><!--Navigation bar-->
+                <a title="You are here" href="#" class="button button-highlight button-pill button-large">Home</a>
+                <a href="Mailbox.html" class="button button-primary button-pill button-large">Mailbox</a>
+                <a href="mcgzg.html" class="button button-primary button-pill button-large">mcgzg</a>
+                <a href="personalshow/index.html" class="button button-primary button-pill button-large">Space</a>
+                <a href="About.html" class="button button-primary button-pill button-large">About</a>
+                <a href="AUS/D01.html"><button class="dropbtn">Australia</button></a>
+            </div>
+            <div>
+                <div><!--sidebar(if need)-->
+                    <ul>
+                        <div class="sidebar" style="height: 0px;">
+                        </div>
+                    </ul>
+                </div>
+                <div>
+                    <div class="playerdiv">
+                        <font class="text">TL_Huff</font> <br />
+                        <iframe class="player" width=80% height=85% src='http://player.youku.com/embed/XMTU2MDgwMzY3Ng==' frameborder=0 'allowfullscreen'></iframe>
+                    </div>
+                    <div class="playerdiv">
+                        <font class="text">tmy_sam</font> <br />
+                        <iframe class="player" width=80% height=85% src='http://player.youku.com/embed/XMTgwODAzOTg4OA==' frameborder=0 'allowfullscreen'></iframe>
+                    </div>
+                    <div class="playerdiv">
+                        <font class="text">Ehtzed</font> <br />
+                        <iframe class="player" width=80% height=85% src='http://player.youku.com/embed/XMTg0NDcyNzgzMg==' frameborder=0 'allowfullscreen'></iframe>
+                    </div>
+                        <img src="http://gjs.tmysam.top/screenshot/screentoday.png" alt="ScreenToday" width="80%" />
+                </div>
+            </div>
+            <div class="buttom"><!--Buttom-->
+                <a href="https://github.com/TSStudio/WebsiteofTSS">Click to enter my Github project</a><br>
+                <font class="text">We're using OPENSOURCE projects.All of them are here:</font><br />
+                <font class="text">upupw[1512.1] Buttons[2.0.0]</font>
+                <font class="beian text">吉ICP备17003700号-1</font>
+            </div>
+        </center>
+    </body>
 </html>

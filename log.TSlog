@@ -1,0 +1,57 @@
+{
+2017.7.5
+Changed FestivalCheck.js:
+if...else
+-->
+switch()
+RSN:faster
+}
+{
+2017.7.9
+Changed FontMapFinder1.js
+switch()
+-->
+replace()
+RSN:Agree more than 1
+}
+{
+2017.7.11
+Changed FontMapFinder1.js
+function Search(){
+	var str=leinput.word.value;
+    var outpux=str.replace(/a/g, "97;");
+-->
+function Search(){
+	var str=leinput.word.value;
+    var outpux=str;
+    var outpux=outpux.replace(/a/g, "97;");
+,,,,,
+document.getElementById("output").innerText=outpux; $$ Last...
+-->
+document.getElementById("output").innerText=str + ":" + outpux;
+}
+{
+2017.7.12
+Changed (TAB AND SPACE) $$Read easily
+Added Australia Model $$Study daily
+Added Music
+Removed Txu.html
+Added a Link to Github
+}
+{
+2017.7.18
+Removed TSS,PHP Files
+Added Time In AUS $$Secs
+}
+{
+2017.7.21
+Removed Font Awesome $$Too much CSS!!!
+}
+{
+2017.8.1
+Fixed Bug in days.js $$Only in August!
+}
+{
+2017.8.2
+days.js $$When I wrote this thing,I lost some "break;"
+}
