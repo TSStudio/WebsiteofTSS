@@ -10,4 +10,11 @@
     -khtml-user-select: none; /*早期浏览器*/
     user-select: none;
 }
-*{font-family:"思源黑体","微软雅黑","黑体";}
+*{font-family:"思源黑体","微软雅黑","黑体","宋体";}
+.main-page{
+font-size: 1.125em;
+}
+.title{
+font-weight: bold;
+font-size: 2.325em;
+}

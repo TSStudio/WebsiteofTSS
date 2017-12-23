@@ -1,3 +1,0 @@
-﻿function tmysam(SearchCode)
-{
-}

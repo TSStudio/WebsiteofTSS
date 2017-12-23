@@ -2,10 +2,17 @@
 {
     var str=form.word.value;
     realcode=window.atob(str);
-    by=realcode.substring(1,2)
-    searchDB(realcode.substring(2),by);
+    by=realcode.substring(0,2)
+    switch(by)
+    {
+        case'00':
+        tmysam(realcode.substring(2));
+        break;
+        default:
+        alert('查询码错误');
+    }
     displaybox=document.getElementById('display');
-    displaybox.innerHTML='<div id="display">'+output.by+'<br>'+output.videoname+'<br>'+output.videourl+'</div>'
+    displaybox.innerHTML='<div id="display">'+output.name+'<br>'+output.type+'<br>'+output.url1+'<br>'+output.url2+'<br>'+output.url3+'</div>'
 }
 function Add()
 {
